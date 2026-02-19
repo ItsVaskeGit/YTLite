@@ -89,7 +89,7 @@ jobs:
 
       - name: Download and validate IPA
         run: |
-          wget https://www.filemail.com/d/ruibgpphocbmhsh --no-verbose -O ${{ github.workspace }}/youtube.ipa
+          wget "https://download1503.mediafire.com/hf03pz26jlmg2g7zjKFkJLMbGEQtP8X4yM66iegY-i3I7JKhJZ2B2_Rw-VXVT3PpGmuGhdI3ImtrMyCqDSTscPn0roZ7z606Jby7xX9JwlXVI8h_BMJYnldRkE2KUwBwnvbqlIHEjPqdlD1CMq9xRUfXsd-7pSmxMOj0rPy4U3sVsWE/92dnpnvpezae21x/com.google.ios.youtube_21.07.4_und3fined.ipa" --no-verbose -O ${{ github.workspace }}/youtube.ipa
 
           file_type=$(file --mime-type -b ${{ github.workspace }}/youtube.ipa)
 
