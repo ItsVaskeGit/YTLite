@@ -89,7 +89,7 @@ jobs:
 
       - name: Download and validate IPA
         run: |
-          wget "https://download2273.mediafire.com/4ew0wgxvkbkgbM_eaYdCgzhPUIyZlvFwx853vjzJFV7qipG_aQi2jkgERCkuQfQGyYZdshLtO93JWJBVOF0P-3UVM9SZTMnLP8lNabwr7-Qr78rB7YioSH3Z2mJdCYVas2GO1nfJlHjw847mpx6ZuJs2HHG2jIHXYWPvVOxqXqU_HqM/x0u2yzymh4vdcvl/com.google.ios.youtube-879038610-Decrypted.ipa" --no-verbose -O ${{ github.workspace }}/youtube.ipa
+          wget "https://download2263.mediafire.com/pmmeo2wfa8bgrm7KORGLCEEHH2Qvptzoa7ss9wLwyJiSLmrJjwUGWpo3pS5VXh3yI7a4838Y1fmC-Xhtp-crwwWPIgYB3AGbjiNSiWB0AKiDgzDUyws-wBaxRTBC9CZ-pyuVGh3fgAvc_1GiMCl_bCBa9mlSBSzcewwLq_jo_OH9hBs/yk8ofvzob4v4tfr/com.google.ios.youtube_21.10.2_und3fined.ipa" --no-verbose -O ${{ github.workspace }}/youtube.ipa
 
           file_type=$(file --mime-type -b ${{ github.workspace }}/youtube.ipa)
 
